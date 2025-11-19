@@ -55,7 +55,7 @@ func main() {
 	durasi, isMember, isHariLibur := 4, false, false
 	tarif := tarifParkir(durasi, isMember, isHariLibur)
 	fmt.Println("=== Kasus 1 ===")
-	fmt.Println("Durasi Parkir		: ", durasi)
+	fmt.Println("Durasi Parkir		:", durasi)
 	fmt.Println("Member 			:", isMember)
 	fmt.Println("Hari Libur 		:", isHariLibur)
 	fmt.Println("Total Biaya Parkir	: Rp.", tarif)
@@ -67,7 +67,7 @@ func main() {
 	durasi2, isMember2, isHariLibur2 := 2, true, true
 	tarif2 := tarifParkir(durasi2, isMember2, isHariLibur2)
 	fmt.Println("=== Kasus 2 ===")
-	fmt.Println("Durasi Parkir		: ", durasi2)
+	fmt.Println("Durasi Parkir		:", durasi2)
 	fmt.Println("Member 			:", isMember2)
 	fmt.Println("Hari Libur 		:", isHariLibur2)
 	fmt.Println("Total Biaya Parkir	: Rp.", tarif2)
